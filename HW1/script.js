@@ -7,32 +7,32 @@
 //     }
 //   }
 
-// function checkAge(age) {
-//     return (age > 18) ? true : `Did parents allow you?`;
-// }
-// console.log(checkAge(20));
+function checkAge(age) {
+    return (age > 18) ? true : `Did parents allow you?`;
+}
+console.log(checkAge(20));
 
 // HW2 tìm số nhỏ nhất
-// function checkMin(a, b) {
-//     return (a < b && a !== b) ? a : b;
-// }
-// console.log(checkMin(25, 15));
-// // HW3
+function checkMin(a, b) {
+    return (a < b && a !== b) ? a : b;
+}
+console.log(checkMin(25, 15));
+// HW3
 
 // function ask(question, yes, no) {
 //     if (confirm(question)) yes()
 //     else no();
 //   }
-// let ask = (question, yes, no) => {
-//     if (confirm(question)) yes()
-//     else no();
-// }
+let ask = (question, yes, no) => {
+    if (confirm(question)) yes()
+    else no();
+}
 
-// ask(
-//     "Do you agree?",
-//     function() { alert("You agreed."); },
-//     function() { alert("You canceled the execution."); }
-// );
+ask(
+    "Do you agree?",
+    function() { alert("You agreed."); },
+    function() { alert("You canceled the execution."); }
+);
 //HW4 
 let userName = prompt("Nhập tên đăng nhập");
 let passWords;
